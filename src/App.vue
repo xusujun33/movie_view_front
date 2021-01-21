@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <p>电影网站初始化</p>
+    <router-view></router-view>
   </div>
 </template>
 
@@ -11,6 +11,10 @@
   -moz-osx-font-smoothing: grayscale;
   padding: 0;
   margin: 0;
-  overflow: hidden;
+  /* overflow: hidden; */
+}
+#app {
+  width: 100%;
+  height: 100%;
 }
 </style>
